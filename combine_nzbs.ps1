@@ -70,7 +70,8 @@ try {
     # Define your exact 3-line header requirements securely without escaping bugs
     $header = @(
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<nzb xmlns="http://suckit.org">'
+        '<!DOCTYPE nzb PUBLIC "-//newzBin//DTD NZB 1.1//EN" "http://www.newzbin.com/DTD/nzb/nzb-1.1.dtd">',
+        '<nzb xmlns="http://www.newzbin.com/DTD/2003/nzb">'
     )
     
     # Write initial headers cleanly
